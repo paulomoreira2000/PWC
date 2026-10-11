@@ -1,0 +1,18 @@
+<title>Parser</title>
+<p>Primeiro parágrafo
+<p>Segundo <b>parágrafo <i>com</b> erros</i>
+<table><tr><td>célula</td></tr><p>parágrafo dentro
+da tabela</p></table>
+
+<!--Onde apareceram <html>, <head> e <body>?
+O browser cria-os automaticamente. O <title> fica dentro do <head> e todo o conteúdo visível vai para o <body>, encapsulado pela tag <html>.-->
+
+<!--O que fez o browser com as tags <b> e <i> mal aninhadas? 
+O browser corrige o erro automaticamente, ajustando a ordem de fecho e abertura das tags para criar uma estrutura válida.-->
+
+<!--Para onde foi o parágrafo que estava dentro da tabela? 
+O browser retira o parágrafo de dentro da tabela e coloca-o logo antes dela, uma vez que não são permitidos parágrafos diretos dentro de tabelas.-->
+
+<!--Porque é que isto prova que o browser não mostrar erros não significa que o HTML esteja correto? 
+Porque o browser corrige os erros em silêncio em vez de dar alertas, fazendo com que a página funcione bem mesmo quando o código-fonte está mal escrito.-->
+
